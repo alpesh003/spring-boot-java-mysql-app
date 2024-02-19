@@ -13,4 +13,12 @@ public class QuickSort implements SortingAlgorithm{
     public String sortString() {
         return "Returns Quick Sort Algorithm";
     }
+
+    /**
+     * @return the sorting class simple name to be returned in factory
+     */
+    @Override
+    public String getSortingType() {
+        return this.getClass().getSimpleName();
+    }
 }

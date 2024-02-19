@@ -11,6 +11,14 @@ public class BubbleSort implements SortingAlgorithm{
      */
     @Override
     public String sortString() {
-        return "Sorting using Bubble Sort";
+        return "Returns Bubble Sort Algorithm";
+    }
+
+    /**
+     * @return the sorting class simple name to be returned in factory
+     */
+    @Override
+    public String getSortingType() {
+        return this.getClass().getSimpleName();
     }
 }
